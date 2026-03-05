@@ -17,6 +17,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--brand-white);
@@ -67,20 +71,61 @@ a {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 5%;
-    background: var(--brand-white);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 15px 8%;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0, 229, 160, 0.1);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    color: var(--brand-navy);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding: 4px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--brand-teal);
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--brand-teal);
+}
+
+.nav-links a:hover::after {
+    width: 100%;
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 800;
-    letter-spacing: 1px;
+    letter-spacing: -0.5px;
     color: var(--brand-navy);
+    cursor: pointer;
 }
 
 .logo span {
@@ -318,6 +363,7 @@ h1 {
 section {
     padding: 100px 0;
     position: relative;
+    scroll-margin-top: 80px;
 }
 
 .wave {
@@ -339,7 +385,24 @@ section.bg-green {
     color: var(--brand-white);
 }
 
-section.bg-dark-green {
+/* About Section */
+.about-section {
+    background: var(--brand-light-gray);
+}
+
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+}
+
+.bg-dark-green {
     background: var(--brand-dark-green);
     color: var(--brand-white);
 }
@@ -494,20 +557,64 @@ html[dir="rtl"] .accordion-header {
 
 /* Footer */
 .glass-footer {
-    background: var(--brand-teal);
-    padding: 40px 0;
-    margin-top: 50px;
-    text-align: center;
+    background: var(--brand-light-gray);
+    padding: 80px 0 60px;
+    margin-top: 100px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .footer-content {
-    color: #0a0f1e;
-    font-size: 0.9rem;
-    font-weight: 500;
+    text-align: center;
 }
 
-.footer-content p {
-    margin-bottom: 10px;
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-links a {
+    color: var(--brand-navy);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+}
+
+.footer-links a:hover {
+    color: var(--brand-teal);
+    opacity: 1;
+    transform: translateY(-3px);
+}
+
+.footer-disc {
+    max-width: 900px;
+    margin: 0 auto 50px;
+    font-size: 0.85rem;
+    line-height: 1.8;
+    color: #64748b;
+    padding: 0 5%;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--brand-navy);
+}
+
+.footer-bottom .highlight {
+    color: var(--brand-teal);
+    font-size: 1.1rem;
 }
 
 /* Animations */
@@ -535,12 +642,26 @@ html[dir="rtl"] .accordion-header {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
     h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .code {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .referral-card {

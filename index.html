@@ -20,12 +20,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 
 <body>
     <nav class="navbar glass">
         <div class="logo">Fizz<span>Code</span></div>
+        <ul class="nav-links">
+            <li><a href="#how-it-works" data-i18n="nav_how">How it Works</a></li>
+            <li><a href="#benefits" data-i18n="nav_benefits">Benefits</a></li>
+            <li><a href="#about" data-i18n="nav_about">About Fizz</a></li>
+            <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+        </ul>
         <div class="lang-switcher">
             <div class="custom-dropdown" id="langDropdown">
                 <button class="dropdown-btn" id="langDropdownBtn" aria-label="Select Language">
@@ -86,7 +92,7 @@
             </div>
         </section>
 
-        <section class="how-it-works bg-white">
+        <section id="how-it-works" class="how-it-works bg-white">
             <div class="container">
                 <h2 data-i18n="how_title">How It Works</h2>
                 <div class="steps-grid">
@@ -111,7 +117,7 @@
             </div>
         </section>
 
-        <section class="benefits bg-dark-green">
+        <section id="benefits" class="benefits bg-dark-green">
             <div class="container">
                 <h2 data-i18n="benefits_title">Why Choose Fizz?</h2>
                 <div class="benefits-grid">
@@ -140,7 +146,21 @@
             </div>
         </section>
 
-        <section class="faq bg-white">
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 data-i18n="about_title">About the Fizz Network</h2>
+                <div class="about-content">
+                    <p data-i18n="about_desc">Fizz is a member-centric telecommunications provider powered by
+                        Videotron's
+                        robust LTE and 5G network. Serving residents across Quebec and the Ottawa region, Fizz offers a
+                        uniquely digital experience where you manage everything online. From data gifting to the My
+                        Rewards program, every feature is designed to put the power back in your hands while keeping
+                        prices competitive and transparent.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq bg-white">
             <div class="container">
                 <h2 data-i18n="faq_title">Frequently Asked Questions</h2>
                 <div class="accordion">
@@ -172,14 +192,24 @@
 
     <footer class="glass-footer">
         <div class="container footer-content">
-            <p data-i18n="footer_disc">This is an independent promotional page not affiliated with Fizz. 'Fizz' is a
+            <ul class="footer-links">
+                <li><a href="#how-it-works" data-i18n="nav_how">How it Works</a></li>
+                <li><a href="#benefits" data-i18n="nav_benefits">Benefits</a></li>
+                <li><a href="#about" data-i18n="nav_about">About Fizz</a></li>
+                <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+            </ul>
+            <p class="footer-disc" data-i18n="footer_disc">This is an independent promotional page not affiliated with
+                Fizz. 'Fizz' is a
                 registered trademark of its respective owner. The owner of this website may receive a referral bonus
                 when you use the provided code. Visit fizz.ca for official terms.</p>
-            <p>&copy; <span id="year"></span>. Code: <strong>649LA</strong></p>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span>. FizzCode</p>
+                <p>Code: <strong class="highlight">649LA</strong></p>
+            </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=1.1"></script>
 </body>
 
 </html>
