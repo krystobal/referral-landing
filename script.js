@@ -1,6 +1,6 @@
 const translations = {
     en: {
-        title: "Fizz Referral Code - Get $25 Bonus | 2026 Promo",
+        title: "Fizz Referral Code - Get $25 Bonus | {{MONTH}} {{YEAR}} Promo",
         description: "Looking for a Fizz referral code? Use 649LA to unlock a $25 bonus on your mobile or home internet subscription. Fast, easy, and valid for all new Quebec and Ottawa members.",
         hero_title: "Unlock Your $25 Fizz Bonus",
         hero_subtitle: "Experience the most flexible mobile and internet provider in Quebec. By using the Fizz referral code below, you will receive a $25 cash bonus directly in your account after your second month of service.",
@@ -36,10 +36,20 @@ const translations = {
         keywords: "fizz referral code, fizz promo code, fizz discount, 649LA, fizz internet bonus, fizz mobile promo quebec",
         og_title: "Fizz Referral Code 649LA - $25 Bonus",
         og_description: "Use my Fizz referral code to get a $25 bonus when you sign up for mobile or home internet.",
+        sm_qc: "Top Cities (Quebec)",
+        city_qc: "Quebec City",
+        sm_on: "Top Cities (Ontario)",
+        sm_guides: "Fizz Guides",
+        guide_rollover: "Data Rollover",
+        guide_gifting: "Data Gifting",
+        guide_rewards: "My Rewards",
+        guide_internet: "Internet Setup",
+        guide_referral: "Referral Program",
+        guide_5g: "5G Network",
         dir: "ltr"
     },
     fr: {
-        title: "Code de Parrainage Fizz - Obtenez 25$ de Prime | Promo 2026",
+        title: "Code de Parrainage Fizz - Obtenez 25$ de Prime | Promo {{MONTH}} {{YEAR}}",
         description: "Vous cherchez un code de parrainage Fizz ? Utilisez 649LA pour débloquer une prime de 25$ sur votre abonnement mobile ou internet résidentiel. Rapide et valide pour tous les nouveaux membres au Québec et à Ottawa.",
         hero_title: "Débloquez Votre Prime Fizz de 25$",
         hero_subtitle: "Découvrez le fournisseur mobile et internet le plus flexible au Québec. En utilisant le code de parrainage Fizz ci-dessous, vous recevrez une prime en argent de 25$ directement dans votre compte après votre deuxième mois de service.",
@@ -75,10 +85,20 @@ const translations = {
         keywords: "code de référence fizz, code promotionnel fizz, rabais fizz, 649LA, bonus internet fizz, code promo mobile fizz québec",
         og_title: "Code de Parrainage Fizz 649LA - Prime de 25$",
         og_description: "Utilisez mon code de parrainage Fizz pour obtenir 25$ de prime lors de votre inscription au mobile ou internet.",
+        sm_qc: "Villes Principales (Québec)",
+        city_qc: "Québec",
+        sm_on: "Villes Principales (Ontario)",
+        sm_guides: "Guides Fizz",
+        guide_rollover: "Report de données",
+        guide_gifting: "Cadeau de données",
+        guide_rewards: "Mes Récompenses",
+        guide_internet: "Installation Internet",
+        guide_referral: "Programme de référence",
+        guide_5g: "Réseau 5G",
         dir: "ltr"
     },
     es: {
-        title: "Código de Referencia Fizz - Obtén un Bono de $25 | Promo 2026",
+        title: "Código de Referencia Fizz - Obtén un Bono de $25 | Promo {{MONTH}} {{YEAR}}",
         description: "¿Buscas un código de referencia de Fizz? Usa 649LA para desbloquear un bono de $25 en tu suscripción de móvil o internet residencial. Rápido y válido para todos los nuevos miembros en Quebec y Ottawa.",
         hero_title: "Desbloquea tu Bono Fizz de $25",
         hero_subtitle: "Experimenta el proveedor de telefonía móvil e internet más flexible de Quebec. Al usar el código de referencia de Fizz a continuación, recibirás un bono en efectivo de $25 directamente en tu cuenta después de tu segundo mes de servicio.",
@@ -114,6 +134,16 @@ const translations = {
         keywords: "código de referencia fizz, código promocional fizz, descuento fizz, 649LA, bono de internet fizz, código móvil fizz quebec",
         og_title: "Código de Referencia Fizz 649LA - Bono de $25",
         og_description: "Usa mi código de referencia de Fizz para obtener un bono de $25 al registrarte en móvil o internet.",
+        sm_qc: "Ciudades (Quebec)",
+        city_qc: "Quebec City",
+        sm_on: "Ciudades (Ontario)",
+        sm_guides: "Guías de Fizz",
+        guide_rollover: "Transferencia de datos",
+        guide_gifting: "Regalo de datos",
+        guide_rewards: "Mis Recompensas",
+        guide_internet: "Instalación de Internet",
+        guide_referral: "Programa de referencia",
+        guide_5g: "Red 5G",
         dir: "ltr"
     },
     ar: {
@@ -153,10 +183,20 @@ const translations = {
         keywords: "كود إحالة فِز, كود ترويجي فِز, خصم فِز, 649LA, بونص إنترنت فِز, كود موبايل فِز كيبيك",
         og_title: "كود خصم فِز 649LA - مكافأة 25 دولار",
         og_description: "استخدم كود الإحالة الخاص بي للحصول على مكافأة 25 دولار عند الاشتراك في باقات الموبايل أو الإنترنت.",
+        sm_qc: "أهم المدن (كيبيك)",
+        city_qc: "مدينة كيبك",
+        sm_on: "أهم المدن (أونتاريو)",
+        sm_guides: "أدلة فِز",
+        guide_rollover: "ترحيل البيانات",
+        guide_gifting: "إهداء البيانات",
+        guide_rewards: "مكافآتي",
+        guide_internet: "إعداد الإنترنت",
+        guide_referral: "برنامج الإحالة",
+        guide_5g: "شبكة 5G",
         dir: "rtl"
     },
     it: {
-        title: "Codice Promo Fizz - Ottieni 25$ di Bonus | Promo 2026",
+        title: "Codice Promo Fizz - Ottieni 25$ di Bonus | Promo {{MONTH}} {{YEAR}}",
         description: "Cerchi un codice referral Fizz? Usa 649LA per sbloccare un bonus di 25$ sul tuo abbonamento mobile o internet casa. Veloce, facile e valido per tutti i nuovi membri in Quebec e Ottawa.",
         hero_title: "Sblocca il tuo Bonus Fizz da 25$",
         hero_subtitle: "Scopri il fornitore mobile e internet più flessibile del Quebec. Utilizzando il codice promozionale Fizz qui sotto, riceverai un bonus in contanti di 25$ direttamente sul tuo conto dopo il secondo mese di servizio.",
@@ -192,10 +232,20 @@ const translations = {
         keywords: "codice di riferimento fizz, codice promozionale fizz, sconto fizz, 649LA, bonus internet fizz, promo mobile fizz quebec",
         og_title: "Codice Promo Fizz 649LA - Bonus di 25$",
         og_description: "Usa il mio codice Fizz per ottenere 25$ di bonus quando ti registri per il telefono o internet a casa.",
+        sm_qc: "Città (Quebec)",
+        city_qc: "Quebec City",
+        sm_on: "Città (Ontario)",
+        sm_guides: "Guide Fizz",
+        guide_rollover: "Rollover dati",
+        guide_gifting: "Regalo di dati",
+        guide_rewards: "I Miei Premi",
+        guide_internet: "Setup Internet",
+        guide_referral: "Programma Referral",
+        guide_5g: "Rete 5G",
         dir: "ltr"
     },
     pt: {
-        title: "Código de Indicação Fizz - Ganhe 25$ de Bônus | Promo 2026",
+        title: "Código de Indicação Fizz - Ganhe 25$ de Bônus | Promo {{MONTH}} {{YEAR}}",
         description: "Procurando por um código de indicação Fizz? Use 649LA para desbloquear um bônus de 25$ na sua assinatura de celular ou internet residencial. Rápido, fácil e válido para todos os novos membros em Quebec e Ottawa.",
         hero_title: "Desbloqueie seu Bônus Fizz de 25$",
         hero_subtitle: "Experimente o provedor de celular e internet mais flexível de Quebec. Ao usar o código de indicação Fizz abaixo, você receberá um bônus em dinheiro de 25$ diretamente na sua conta após o segundo mês de serviço.",
@@ -231,10 +281,20 @@ const translations = {
         keywords: "código de indicação fizz, código promocional fizz, desconto fizz, 649LA, bônus de internet fizz, promo móvel fizz quebec",
         og_title: "Código de Indicação Fizz 649LA - Bônus de 25$",
         og_description: "Use meu código Fizz para ganhar 25$ de bônus quando assinar um plano de celular ou internet.",
+        sm_qc: "Cidades (Quebec)",
+        city_qc: "Quebec City",
+        sm_on: "Cidades (Ontario)",
+        sm_guides: "Guias Fizz",
+        guide_rollover: "Rollover de dados",
+        guide_gifting: "Presente de dados",
+        guide_rewards: "Minhas Recompensas",
+        guide_internet: "Setup Internet",
+        guide_referral: "Programa de Indicação",
+        guide_5g: "Rede 5G",
         dir: "ltr"
     },
     ht: {
-        title: "Kòd Referans Fizz - Jwenn 25$ Bonis | Promo 2026",
+        title: "Kòd Referans Fizz - Jwenn 25$ Bonis | Promo {{MONTH}} {{YEAR}}",
         description: "Èske w ap chèche yon kòd referans Fizz? Sèvi ak 649LA pou w jwenn yon bonis 25$ sou abònman mobil oswa entènèt ou. Li rapid, fasil, epi li valab pou tout nouvo manm nan Kebèk ak Ottawa.",
         hero_title: "Debloke Bonis 25$ Fizz Ou a",
         hero_subtitle: "Eksperyans founisè mobil ak entènèt ki pi fleksib nan Kebèk. Lè w sèvi ak kòd referans Fizz ki anba a, w ap resevwa yon bonis 25$ kach dirèkteman nan kont ou apre dezyèm mwa sèvis ou.",
@@ -270,6 +330,16 @@ const translations = {
         keywords: "kòd referans fizz, kòd pwomosyon fizz, rabè fizz, 649LA, bonis entènèt fizz, pwomosyon mobil fizz kebèk",
         og_title: "Kòd Referans Fizz 649LA - Bonis 25$",
         og_description: "Sèvi ak kòd referans Fizz mwen an pou jwenn 25$ bonis lè w pran entènèt oubyen mobil.",
+        sm_qc: "Vil yo (Kebèk)",
+        city_qc: "Quebec City",
+        sm_on: "Vil yo (Ontario)",
+        sm_guides: "Gid Fizz yo",
+        guide_rollover: "Done ki konsève",
+        guide_gifting: "Kado done",
+        guide_rewards: "Rekonpans mwen",
+        guide_internet: "Enstalasyon Entènèt",
+        guide_referral: "Pwogram Referans",
+        guide_5g: "Rezo 5G",
         dir: "ltr"
     },
     el: {
@@ -309,6 +379,16 @@ const translations = {
         keywords: "κωδικός σύστασης fizz, εκπτωτικός κωδικός fizz, έκπτωση fizz, 649LA, μπόνους ίντερνετ fizz, προσφορά κινητής fizz quebec",
         og_title: "Κωδικός Σύστασης Fizz 649LA - Μπόνους 25$",
         og_description: "Χρησιμοποιήστε τον κωδικό σύστασης Fizz για να κερδίσετε μπόνους 25$ κατά την εγγραφή σας.",
+        sm_qc: "Πόλεις (Κεμπέκ)",
+        city_qc: "Πόλη του Κεμπέκ",
+        sm_on: "Πόλεις (Οντάριο)",
+        sm_guides: "Οδηγοί Fizz",
+        guide_rollover: "Μεταφορά δεδομένων",
+        guide_gifting: "Δώρο δεδομένων",
+        guide_rewards: "Οι ανταμοιβές μου",
+        guide_internet: "Εγκατάσταση Internet",
+        guide_referral: "Πρόγραμμα Σύστασης",
+        guide_5g: "Δίκτυο 5G",
         dir: "ltr"
     },
     zh: {
@@ -348,6 +428,16 @@ const translations = {
         keywords: "fizz 推荐码, fizz 优惠码, fizz 折扣, 649LA, fizz 网络奖励, fizz 魁北克手机优惠",
         og_title: "Fizz 推荐码 649LA - $25 奖励",
         og_description: "使用我的 Fizz 推荐码，注册手机或家庭网络即可获得 $25 奖励。",
+        sm_qc: "热门城市 (魁北克)",
+        city_qc: "魁北克城",
+        sm_on: "热门城市 (安大略)",
+        sm_guides: "Fizz 指南",
+        guide_rollover: "流量结转",
+        guide_gifting: "流量赠送",
+        guide_rewards: "我的奖励",
+        guide_internet: "网络安装",
+        guide_referral: "推荐计划",
+        guide_5g: "5G 网络",
         dir: "ltr"
     },
     vi: {
@@ -387,6 +477,16 @@ const translations = {
         keywords: "mã giới thiệu fizz, mã khuyến mãi fizz, giảm giá fizz, 649LA, tiền thưởng internet fizz, ưu đãi di động fizz quebec",
         og_title: "Mã Giới Thiệu Fizz 649LA - Thưởng $25",
         og_description: "Sử dụng mã giới thiệu Fizz của tôi để nhận thưởng $25 khi đăng ký mạng di động hoặc internet.",
+        sm_qc: "Thành phố (Quebec)",
+        city_qc: "Thành phố Quebec",
+        sm_on: "Thành phố (Ontario)",
+        sm_guides: "Hướng dẫn Fizz",
+        guide_rollover: "Cộng dồn dữ liệu",
+        guide_gifting: "Tặng dữ liệu",
+        guide_rewards: "Phần thưởng của tôi",
+        guide_internet: "Cài đặt Internet",
+        guide_referral: "Chương trình giới thiệu",
+        guide_5g: "Mạng 5G",
         dir: "ltr"
     },
 };
@@ -508,12 +608,51 @@ function setLanguage(lang) {
 
     // Update DOM elements
     const elements = document.querySelectorAll('[data-i18n]');
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = getMonthName(lang, now.getMonth());
+
     elements.forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (dict[key]) {
-            el.innerHTML = dict[key];
+            let content = dict[key];
+            content = content.replace(/{{YEAR}}/g, year).replace(/{{MONTH}}/g, month);
+            el.innerHTML = content;
         } else {
             console.warn(`Translation key missing for [${lang}]: ${key}`);
         }
     });
+
+    // Update title and meta with dynamic dates
+    document.title = dict.title.replace(/{{YEAR}}/g, year).replace(/{{MONTH}}/g, month);
+    document.querySelector('meta[name="description"]')?.setAttribute("content", dict.description.replace(/{{YEAR}}/g, year).replace(/{{MONTH}}/g, month));
+    document.querySelector('meta[property="og:title"]')?.setAttribute("content", dict.og_title.replace(/{{YEAR}}/g, year).replace(/{{MONTH}}/g, month));
+    document.querySelector('meta[property="og:description"]')?.setAttribute("content", dict.og_description.replace(/{{YEAR}}/g, year).replace(/{{MONTH}}/g, month));
+
+    // Update mega-sitemap links to point to current language
+    const sitemap = document.getElementById('megaSitemap');
+    if (sitemap) {
+        sitemap.querySelectorAll('a').forEach(a => {
+            const href = a.getAttribute('href');
+            if (href) {
+                a.setAttribute('href', href.replace(/^(en|fr|es|ar|it|pt|ht|el|zh|vi)\//, lang + '/'));
+            }
+        });
+    }
+}
+
+function getMonthName(lang, monthIndex) {
+    const months = {
+        en: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        fr: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+        es: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octobre", "Noviembre", "Diciembre"],
+        ar: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+        it: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"],
+        pt: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
+        ht: ["Janvye", "Fevriye", "Mas", "Avril", "Me", "Jen", "Jiyè", "Out", "Septanm", "Oktòb", "Novanm", "Desanm"],
+        el: ["Ιανουάριος", "Φεβρουάριος", "Μάρτιος", "Απρίλιος", "Μάιος", "Ιούνιος", "Ιούλιος", "Αύγουστος", "Σεπτέμβριος", "Οκτώβριος", "Νοέμβριος", "Δεκέμβριος"],
+        zh: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+        vi: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"]
+    };
+    return (months[lang] || months.en)[monthIndex];
 }

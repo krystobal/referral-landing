@@ -390,6 +390,19 @@ section.bg-green {
     background: var(--brand-light-gray);
 }
 
+/* Zone Badge for city subpages */
+.zone-badge {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, var(--brand-light-gray), #e8f4f8);
+    border: 1px solid rgba(0, 179, 167, 0.2);
+    color: var(--brand-navy);
+}
+
 .about-section .container {
     max-width: 800px;
     margin: 0 auto;
@@ -590,6 +603,42 @@ html[dir="rtl"] .accordion-header {
     color: var(--brand-teal);
     opacity: 1;
     transform: translateY(-3px);
+}
+
+.mega-sitemap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    text-align: left;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sitemap-col h4 {
+    color: var(--brand-navy);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.sitemap-col ul {
+    list-style: none;
+}
+
+.sitemap-col li {
+    margin-bottom: 10px;
+}
+
+.sitemap-col a {
+    color: #64748b;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+}
+
+.sitemap-col a:hover {
+    color: var(--brand-teal);
 }
 
 .footer-disc {
