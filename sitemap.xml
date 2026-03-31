@@ -31,7 +31,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/en/cities/mississauga.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/cities/brampton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/cities/hamilton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/en/cities/london.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/en/cities/london.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/cities/markham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/cities/vaughan.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/cities/kitchener.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -62,7 +62,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/fr/cities/dollard-des-ormeaux.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/fr/cities/mirabel.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/fr/cities/rimouski.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/fr/cities/shawinigan.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/fr/cities/shawinigan.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/fr/cities/mascouche.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/fr/cities/victoriaville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/fr/cities/ottawa.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -93,7 +93,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/es/cities/saint-jean-sur-richelieu.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/cities/brossard.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/cities/repentigny.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/es/cities/saint-jerome.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/es/cities/saint-jerome.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/cities/drummondville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/cities/granby.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/cities/blainville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -124,7 +124,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/laval.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/gatineau.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/longueuil.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/ar/cities/sherbrooke.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/ar/cities/sherbrooke.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/saguenay.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/levis.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/trois-rivieres.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -155,7 +155,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/windsor.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/richmond-hill.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/oakville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/ar/cities/burlington.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/ar/cities/burlington.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/oshawa.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ar/cities/barrie.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/montreal.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -186,7 +186,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/toronto.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/mississauga.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/brampton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/it/cities/hamilton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/it/cities/hamilton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/london.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/markham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/cities/vaughan.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -217,7 +217,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/pt/cities/saint-hyacinthe.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/pt/cities/dollard-des-ormeaux.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/pt/cities/mirabel.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/pt/cities/rimouski.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/pt/cities/rimouski.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/pt/cities/shawinigan.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/pt/cities/mascouche.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/pt/cities/victoriaville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -248,7 +248,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/ht/cities/terrebonne.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/cities/saint-jean-sur-richelieu.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/cities/brossard.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/ht/cities/repentigny.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/ht/cities/repentigny.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/cities/saint-jerome.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/cities/drummondville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/cities/granby.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -279,7 +279,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/quebec-city.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/laval.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/gatineau.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/el/cities/longueuil.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/el/cities/longueuil.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/sherbrooke.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/saguenay.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/levis.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -310,7 +310,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/kitchener.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/windsor.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/richmond-hill.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/el/cities/oakville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/el/cities/oakville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/burlington.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/oshawa.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/el/cities/barrie.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -341,7 +341,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/zh/cities/ottawa.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/cities/toronto.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/cities/mississauga.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/zh/cities/brampton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/zh/cities/brampton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/cities/hamilton.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/cities/london.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/cities/markham.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -372,7 +372,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/vi/cities/blainville.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/vi/cities/saint-hyacinthe.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/vi/cities/dollard-des-ormeaux.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/vi/cities/mirabel.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/vi/cities/mirabel.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/vi/cities/rimouski.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/vi/cities/shawinigan.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/vi/cities/mascouche.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -403,7 +403,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/en/guides/coverage-map.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/guides/5g-network.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/guides/student-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/en/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/en/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/guides/number-porting.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/guides/international-roaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/en/guides/prepaid-vs-postpaid.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -433,7 +433,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/es/guides/coverage-map.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/guides/5g-network.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/guides/student-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/es/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/es/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/guides/number-porting.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/guides/international-roaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/es/guides/prepaid-vs-postpaid.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -463,7 +463,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/it/guides/coverage-map.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/guides/5g-network.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/guides/student-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/it/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/it/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/guides/number-porting.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/guides/international-roaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/it/guides/prepaid-vs-postpaid.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -493,7 +493,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/ht/guides/coverage-map.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/guides/5g-network.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/guides/student-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/ht/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/ht/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/guides/number-porting.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/guides/international-roaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/ht/guides/prepaid-vs-postpaid.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -523,7 +523,7 @@
   <url><loc>https://referral-landing-psi.vercel.app/zh/guides/coverage-map.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/guides/5g-network.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/guides/student-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://referral-landing-psi.vercel.app/zh/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://referral-landing-psi.vercel.app/zh/guides/family-plans.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/guides/number-porting.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/guides/international-roaming.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://referral-landing-psi.vercel.app/zh/guides/prepaid-vs-postpaid.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
