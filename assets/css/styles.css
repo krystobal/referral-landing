@@ -1,7 +1,7 @@
 /* Fizz 649LA promo — Fizz-inspired palette */
 :root{
   --fizz-green:#00d97e;
-  --fizz-green-dark:#06b86b;
+  --fizz-green-dark:#007a47;
   --fizz-deep:#003d2b;
   --fizz-purple:#6b2c91;
   --fizz-pink:#f25c7a;
@@ -93,6 +93,9 @@ p{margin:0 0 1em;color:var(--ink-soft)}
 }
 .lang-menu a:hover{background:var(--paper-soft);text-decoration:none}
 .lang-menu a[aria-current="true"]{background:#e8fbf2;color:var(--fizz-deep);font-weight:700}
+.lang-picker .flag{display:inline-block;font-size:1.05em;line-height:1;width:1.4em;text-align:center;margin-right:6px;font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif}
+[dir="rtl"] .lang-picker .flag{margin-right:0;margin-left:6px}
+.lang-menu a{display:flex;align-items:center}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
   padding:12px 22px;border-radius:999px;border:0;cursor:pointer;
@@ -116,7 +119,7 @@ p{margin:0 0 1em;color:var(--ink-soft)}
 .eyebrow{display:inline-flex;align-items:center;gap:8px;background:#e8fbf2;color:var(--fizz-deep);padding:6px 14px;border-radius:999px;font-size:.8rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--fizz-green);animation:pulse 1.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.4;transform:scale(.9)}50%{opacity:1;transform:scale(1.2)}}
-.hero h1 .accent{background:linear-gradient(120deg,var(--fizz-green) 0%,var(--fizz-purple) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1 .accent{background:linear-gradient(120deg,var(--fizz-green-dark) 0%,var(--fizz-purple) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
 .hero-meta{margin-top:18px;color:var(--ink-soft);font-size:.92rem}
 
@@ -175,7 +178,7 @@ section{padding:64px 0}
 .card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cfe8dc}
 .card .icon{width:46px;height:46px;border-radius:12px;background:#e8fbf2;color:var(--fizz-deep);display:grid;place-items:center;margin-bottom:14px;font-weight:800}
 .section-dark .card{background:#055240;border-color:#0a6b54;color:#eaf6ef}
-.section-dark .card p{color:#bcd6c8}
+.section-dark .card p{color:#d3e8dc}
 .section-dark .card .icon{background:rgba(0,217,126,.15);color:var(--fizz-green)}
 
 /* Steps */
@@ -206,7 +209,8 @@ section{padding:64px 0}
 .compare-table th{background:var(--fizz-deep);color:#fff;font-weight:700}
 .compare-table tr:last-child td{border-bottom:0}
 .compare-table .yes{color:var(--fizz-green-dark);font-weight:800}
-.compare-table .no{color:#aaa}
+.compare-table .no{color:#6b7280}
+.compare-table td[aria-label="Varies"]{color:#6b7280;font-weight:700}
 
 /* Footer */
 .site-footer{background:var(--fizz-deep);color:#bcd6c8;padding:48px 0 28px;margin-top:40px}
@@ -251,7 +255,7 @@ section{padding:64px 0}
 .quote cite{display:block;margin-top:10px;font-style:normal;font-weight:700;color:var(--ink-soft);font-size:.9rem}
 
 /* Big CTA strip */
-.cta-strip{background:linear-gradient(120deg,var(--fizz-green) 0%,var(--fizz-purple) 100%);color:#fff;padding:60px 0;text-align:center}
+.cta-strip{background:linear-gradient(120deg,var(--fizz-deep) 0%,var(--fizz-purple) 100%);color:#fff;padding:60px 0;text-align:center}
 .cta-strip h2{color:#fff}
 .cta-strip .btn{background:#fff;color:var(--fizz-deep)}
 .cta-strip .btn:hover{background:#eafff5}
