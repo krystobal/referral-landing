@@ -55,12 +55,17 @@
     });
   });
 
-  // Language picker
-  const picker = document.getElementById("lang-picker");
-  if (picker) {
-    picker.addEventListener("change", () => {
-      const target = picker.value;
-      if (target) window.location.href = target;
+  // Close lang-picker dropdown on outside click or Escape
+  document.querySelectorAll("details.lang-picker").forEach(d => {
+    document.addEventListener("click", (e) => {
+      if (d.open && !d.contains(e.target)) d.removeAttribute("open");
     });
-  }
+    d.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && d.open) {
+        d.removeAttribute("open");
+        const s = d.querySelector("summary");
+        if (s) s.focus();
+      }
+    });
+  });
 })();
